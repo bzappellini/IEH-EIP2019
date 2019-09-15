@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./build
+    container_name: labo2_1
+    environment:
+      - APACHE_RUN_USER=www-data
+      - APACHE_RUN_GROUP=www-data
+      - APACHE_LOG_DIR=/var/log/apache2
+      - USERS=admin|V3ryH@rdp4s5w*rd|/ftp/users/admin|1110 sitio1|password|/ftp/users/sitio1|1111 sitio2|123456|/ftp/users/sitio2|1112 nuevo|nuevo|/ftp/users/nuevo|1113

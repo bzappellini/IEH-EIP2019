@@ -1,0 +1,1 @@
+docker run --name metasploitable -it tleemcjr/metasploitable2:latest sh -c "/bin/services.sh && bash"
