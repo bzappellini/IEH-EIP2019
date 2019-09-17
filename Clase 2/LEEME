@@ -2,6 +2,16 @@ Bienvenido a la clase 2!
 
 Para estar preparado para la clase tenes que ejecutar de antemano el siguiente comando (En la comodidad de tu hogar, ya que posiblemente la red de la uni no de!):
 
-./preparacion.sh
+./arriba.sh
 
 Y listo! ;)
+
+Tambien pueden, como metodo opcional, ejecutar de la misma manera ambos archivos "descargas.sh" que hay en cada carpeta del laboratorio.
+
+
+Nota al pie:
+ - Si llegan a tener un problema de que no les permite ejecutar alguno de los archivos, ejecuten el comando:
+    
+    sudo chmod +x <archivo>
+
+    Ejemplo: sudo chmod +x arriba.sh
