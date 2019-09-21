@@ -1,0 +1,8 @@
+Maquina de Dokcer:  docker run -d -p 3000:80 vulnerables/web-dvwa
+
+En en navegador: localhost:3000 (en caso de agregar el puerto, sino obviarlo)
+
+- user: admin
+- password: password
+
+Luego le dan al boton "create / reset database" y les va a tirar nuevamente el login. Se loguean con las credenciales pasadas y a trabajar !!!
